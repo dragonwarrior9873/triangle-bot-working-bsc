@@ -1,81 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\.deps\\npm\\@openzeppelin\\contracts\\utils\\math\\SafeMath.sol": {
-      "lastModificationDate": 1715736922452,
-      "contentHash": "a0b9e6256e411d38dc50529d94553c5a",
-      "sourceName": "contracts/.deps/npm/@openzeppelin/contracts/utils/math/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "SafeMath"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\.deps\\npm\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1715736922449,
-      "contentHash": "88396d54f978442980a1135de6c12ed7",
-      "sourceName": "contracts/.deps/npm/@openzeppelin/contracts/utils/Strings.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Strings"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\IERC20.sol": {
-      "lastModificationDate": 1713626796376,
-      "contentHash": "600e5ed607bf27e24cd0df5437135ef3",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/IERC20.sol": {
+      "lastModificationDate": 1715740268224,
+      "contentHash": "a0576def447de07542c0dd1742a766e3",
       "sourceName": "contracts/IERC20.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -109,227 +37,9 @@
         "IERC20"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\interfaces\\IERC20.sol": {
-      "lastModificationDate": 1715736922474,
-      "contentHash": "600e5ed607bf27e24cd0df5437135ef3",
-      "sourceName": "contracts/interfaces/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.6"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\interfaces\\IUniswapV2Pair.sol": {
-      "lastModificationDate": 1715736922479,
-      "contentHash": "e01f412a3ca86a5e0f1d4f243c015843",
-      "sourceName": "contracts/interfaces/IUniswapV2Pair.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.6"
-      ],
-      "artifacts": [
-        "IUniswapV2Pair"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\interfaces\\IUniswapV2Factory.sol": {
-      "lastModificationDate": 1715736922477,
-      "contentHash": "b5193eb059d2b002329bebfac889a087",
-      "sourceName": "contracts/interfaces/IUniswapV2Factory.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.6"
-      ],
-      "artifacts": [
-        "IUniswapV2Factory"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\interfaces\\IUniswapV2Router02.sol": {
-      "lastModificationDate": 1715736922484,
-      "contentHash": "aa62f2c5652c071d657276453116c1bf",
-      "sourceName": "contracts/interfaces/IUniswapV2Router02.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IUniswapV2Router01.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.6"
-      ],
-      "artifacts": [
-        "IUniswapV2Router02"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\interfaces\\IUniswapV2Router01.sol": {
-      "lastModificationDate": 1715736922481,
-      "contentHash": "e01fe58c15c7ea19d0192ba7c8338c66",
-      "sourceName": "contracts/interfaces/IUniswapV2Router01.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.6"
-      ],
-      "artifacts": [
-        "IUniswapV2Router01"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\interfaces\\IUniswapV2Callee.sol": {
-      "lastModificationDate": 1715736922476,
-      "contentHash": "54e5697850d3c4362c70565fe43bb541",
-      "sourceName": "contracts/interfaces/IUniswapV2Callee.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.6"
-      ],
-      "artifacts": [
-        "IUniswapV2Callee"
-      ]
-    },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\IUniswapV2Callee.sol": {
-      "lastModificationDate": 1713626796377,
-      "contentHash": "54e5697850d3c4362c70565fe43bb541",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1715740268224,
+      "contentHash": "2b1efb429ffa3bb808dec5d5acb207c5",
       "sourceName": "contracts/IUniswapV2Callee.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -363,9 +73,9 @@
         "IUniswapV2Callee"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\IUniswapV2Factory.sol": {
-      "lastModificationDate": 1713626796378,
-      "contentHash": "b5193eb059d2b002329bebfac889a087",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1715740268224,
+      "contentHash": "f42b167da572964ca92153533f788556",
       "sourceName": "contracts/IUniswapV2Factory.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -399,9 +109,9 @@
         "IUniswapV2Factory"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\IUniswapV2Pair.sol": {
-      "lastModificationDate": 1713626796379,
-      "contentHash": "e01f412a3ca86a5e0f1d4f243c015843",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1715740268224,
+      "contentHash": "722de851e90cb8e4b7e2b51fce5f4337",
       "sourceName": "contracts/IUniswapV2Pair.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -435,9 +145,9 @@
         "IUniswapV2Pair"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\IUniswapV2Router01.sol": {
-      "lastModificationDate": 1713626796380,
-      "contentHash": "e01fe58c15c7ea19d0192ba7c8338c66",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1715740268224,
+      "contentHash": "07d1519971dea1c3301e1b39bea62dd1",
       "sourceName": "contracts/IUniswapV2Router01.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -471,9 +181,9 @@
         "IUniswapV2Router01"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\IUniswapV2Router02.sol": {
-      "lastModificationDate": 1713626796381,
-      "contentHash": "aa62f2c5652c071d657276453116c1bf",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1715740268224,
+      "contentHash": "4fc5dab62fa1635ac89e549b8b571c31",
       "sourceName": "contracts/IUniswapV2Router02.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -509,9 +219,227 @@
         "IUniswapV2Router02"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\Triangle_Bot.sol": {
-      "lastModificationDate": 1715738715744,
-      "contentHash": "8a8dc184a689b186b75d7bc254e12422",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "722de851e90cb8e4b7e2b51fce5f4337",
+      "sourceName": "contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "a0576def447de07542c0dd1742a766e3",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "f42b167da572964ca92153533f788556",
+      "sourceName": "contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "4fc5dab62fa1635ac89e549b8b571c31",
+      "sourceName": "contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "07d1519971dea1c3301e1b39bea62dd1",
+      "sourceName": "contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IUniswapV2Callee.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "2b1efb429ffa3bb808dec5d5acb207c5",
+      "sourceName": "contracts/interfaces/IUniswapV2Callee.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IUniswapV2Callee"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/Triangle_Bot.sol": {
+      "lastModificationDate": 1715740268224,
+      "contentHash": "9fa5b8267f78e64e90ceb8e4365bf767",
       "sourceName": "contracts/Triangle_Bot.sol",
       "solcConfig": {
         "version": "0.6.6",
@@ -551,8 +479,8 @@
         "Triangle_Bot"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\node_modules\\@openzeppelin\\contracts\\math\\SafeMath.sol": {
-      "lastModificationDate": 1715738500442,
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1715740763123,
       "contentHash": "e03e12206057e809eb76c5f681170c32",
       "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
       "solcConfig": {
@@ -586,8 +514,8 @@
         "SafeMath"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1715738500847,
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1715740763127,
       "contentHash": "c86a31bacf868d392eda08a0eccc4735",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -621,9 +549,9 @@
         "Strings"
       ]
     },
-    "F:\\work\\24_4_25_arbitrage_bot\\arbitrage-bot-nol-search-triangle-pairs\\bot-contracts\\contracts\\UniswapV2Library.sol": {
-      "lastModificationDate": 1715736922377,
-      "contentHash": "ac53ae3957565b63874e474a32b88b0c",
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/UniswapV2Library.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "a0fecb1507f2d195665a1c8e177ed486",
       "sourceName": "contracts/UniswapV2Library.sol",
       "solcConfig": {
         "version": "0.6.6",

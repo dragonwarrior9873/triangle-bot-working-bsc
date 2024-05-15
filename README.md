@@ -1,2 +1,2 @@
-# triangle-bot-working-bsc
-This bot is for triangle arbitrage on bsc mainnet.
+Triangle bot is working on pancakeswap and sushiswap and biswap.
+It can make arbitrage traversing PTK, NTK, OTK, tokens deployed on BSC mainnet.

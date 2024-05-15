@@ -163,7 +163,7 @@ const runBot = async () => {
             const tx = await pairs[from_swap_id][0].swap(
               token0 == pair_addresses[i].token0 ? 0 : ethers.utils.parseUnits(String(setting['amount']), pair_addresses[i].decimal1).toString(),
               0,
-              process.env.FLASH_LOANER,
+              process.env.TRIANGLE_BOT,
               ethers.utils.arrayify(dex_addresses[from_swap_id].router + dex_addresses[to_swap_id1].router.substring(2) + dex_addresses[to_swap_id2].router.substring(2)+
               pair_addresses[i].token0.substring(2)+pair_addresses[i].token1.substring(2)+pair_addresses[i].token2.substring(2)),
               {

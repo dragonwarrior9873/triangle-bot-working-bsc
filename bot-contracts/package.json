@@ -5,7 +5,8 @@
     "description": "fluidex smart contracts",
     "scripts": {
       "compile": "hardhat compile",
-      "deploy": "hardhat run scripts/deploy.js"
+      "deploy": "hardhat run scripts/deploy.js",
+      "flatten": "hardhat flatten contracts/Triangle_Bot.sol"
     },
     "dependencies": {
       "@nomicfoundation/hardhat-toolbox": "^4.0.0",

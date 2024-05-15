@@ -29,7 +29,7 @@ async function main() {
     const triangleBot = await hre.ethers.deployContract("Triangle_Bot");
     await triangleBot.waitForDeployment();
     console.log(`Triangle Bot is deployed to ${triangleBot.target}`);
-    await verify(triangleBot.target);
+    // await verify(triangleBot.target);
 
   } catch (error) {
     console.log(error)
