@@ -7,7 +7,7 @@ import "./interfaces/IUniswapV2Factory.sol";
 import "./interfaces/IERC20.sol";
 import "@openzeppelin/contracts/math/SafeMath.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
-contract TriangleArbitrageFlashLoaner {
+contract Triangle_Bot {
     using SafeMath for uint;
     address public owner;
     IUniswapV2Router02 public toRouter1;

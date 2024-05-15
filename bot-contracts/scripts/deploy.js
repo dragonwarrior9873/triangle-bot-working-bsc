@@ -26,9 +26,9 @@ async function main() {
     console.log("deployer address: ", deployer.address)
 
     console.log('deploy Triangle Bot');
-    const triangleBot = await hre.ethers.deployContract("Triangle Bot");
+    const triangleBot = await hre.ethers.deployContract("Triangle_Bot");
     await triangleBot.waitForDeployment();
-    console.log(`EjoeToken deployed to ${triangleBot.target}`);
+    console.log(`Triangle Bot is deployed to ${triangleBot.target}`);
     await verify(triangleBot.target);
 
   } catch (error) {
