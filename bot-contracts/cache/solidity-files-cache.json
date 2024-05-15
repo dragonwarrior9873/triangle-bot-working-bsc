@@ -255,42 +255,6 @@
         "IUniswapV2Pair"
       ]
     },
-    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IERC20.sol": {
-      "lastModificationDate": 1715740268228,
-      "contentHash": "a0576def447de07542c0dd1742a766e3",
-      "sourceName": "contracts/interfaces/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.6"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
     "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IUniswapV2Factory.sol": {
       "lastModificationDate": 1715740268228,
       "contentHash": "f42b167da572964ca92153533f788556",
@@ -325,6 +289,42 @@
       ],
       "artifacts": [
         "IUniswapV2Factory"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1715740268228,
+      "contentHash": "a0576def447de07542c0dd1742a766e3",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.6"
+      ],
+      "artifacts": [
+        "IERC20"
       ]
     },
     "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/interfaces/IUniswapV2Router02.sol": {
@@ -438,8 +438,8 @@
       ]
     },
     "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/Triangle_Bot.sol": {
-      "lastModificationDate": 1715740268224,
-      "contentHash": "9fa5b8267f78e64e90ceb8e4365bf767",
+      "lastModificationDate": 1715745517845,
+      "contentHash": "a185c45fe92991e4c0ce61680716816b",
       "sourceName": "contracts/Triangle_Bot.sol",
       "solcConfig": {
         "version": "0.6.6",
@@ -479,41 +479,6 @@
         "Triangle_Bot"
       ]
     },
-    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
-      "lastModificationDate": 1715740763123,
-      "contentHash": "e03e12206057e809eb76c5f681170c32",
-      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.6.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "SafeMath"
-      ]
-    },
     "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
       "lastModificationDate": 1715740763127,
       "contentHash": "c86a31bacf868d392eda08a0eccc4735",
@@ -547,6 +512,41 @@
       ],
       "artifacts": [
         "Strings"
+      ]
+    },
+    "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/node_modules/@openzeppelin/contracts/math/SafeMath.sol": {
+      "lastModificationDate": 1715740763123,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
       ]
     },
     "/root/pooh/bot/triangle-bot-working-bsc/bot-contracts/contracts/UniswapV2Library.sol": {

@@ -2,7 +2,6 @@
 require("dotenv").config();
 const fs = require('fs');
 const web3 = require("web3");
-const { pretty } = require("pretty-bitte");
 const ethers = require('ethers');
 const web3_WSS = new web3(process.env.WSS_PROVIDER);
 const web3_HTTPS = new web3(process.env.HTTPS_PROVIDER);
