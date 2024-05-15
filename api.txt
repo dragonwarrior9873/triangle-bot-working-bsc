@@ -1,0 +1,3 @@
+wss://speedy-nodes-nyc.moralis.io/f69c3f94a3bb310f9a769852/avalanche/mainnet/ws
+
+wss://speedy-nodes-nyc.moralis.io/30a75004335a4bec83241054/avalanche/mainnet/ws

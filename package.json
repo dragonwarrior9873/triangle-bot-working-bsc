@@ -1,0 +1,45 @@
+{
+  "name": "arbitrage-bot-between-uniswap-and-sushiswap-with-flashloans",
+  "version": "0.1.0",
+  "description": "Arbitrage-Bot-between-UniSwap-and-SushiSwap-with-FlashLoans",
+  "author": "ignacioceaglio@protonmail.com",
+  "keywords": [
+    "ethereum",
+    "smart",
+    "contracts",
+    "test",
+    "solidity",
+    "hardhat"
+  ],
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "2.0.2",
+    "@nomiclabs/hardhat-etherscan": "2.1.1",
+    "@nomiclabs/hardhat-waffle": "2.0.1",
+    "@openzeppelin/contracts": "^3.4.0",
+    "axios": "^0.24.0",
+    "dotenv": "^8.2.0",
+    "ethereum-waffle": "3.3.0",
+    "ethereumjs-transaction": "^2.1.4",
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjsx-transaction": "^1.0.0",
+    "ethers": "^5.0.12",
+    "fs": "0.0.1-security",
+    "hardhat-gas-reporter": "1.0.4",
+    "hardhat-preprocessor": "0.1.3",
+    "web3": "^1.6.1"
+  },
+  "devDependencies": {
+    "hardhat": "*",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.2"
+  },
+  "license": "MIT"
+}

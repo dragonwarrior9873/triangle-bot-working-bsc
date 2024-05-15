@@ -1,0 +1,287 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "dmmSwapCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fromRouter",
+				"outputs": [
+					{
+						"internalType": "contract IUniswapV2Router02",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "joeCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "lydiaCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "pangolinCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toRouter1",
+				"outputs": [
+					{
+						"internalType": "contract IUniswapV2Router02",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toRouter2",
+				"outputs": [
+					{
+						"internalType": "contract IUniswapV2Router02",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "uniswapV2Call",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TriangleArbitrageFlashLoaner.sol": "TriangleArbitrageFlashLoaner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/math/SafeMath.sol": {
+			"keccak256": "0xcc78a17dd88fa5a2edc60c8489e2f405c0913b377216a5b26b35656b2d0dab52",
+			"urls": [
+				"bzz-raw://526dc85e1f9b9b45830e202568d267d93dde7a4fcccf4ad7798dadcd92304d3c",
+				"dweb:/ipfs/QmaoXMB972J3cSDLtBq3xBo4jLwqD2uzXTwujtSPqkYVhR"
+			]
+		},
+		"@openzeppelin/contracts/utils/Strings.sol": {
+			"keccak256": "0xa1e12f97981f1d0964b1c048978606a57127c56c438bab61cdfe269cad859a74",
+			"urls": [
+				"bzz-raw://5eefac1760f524971e14aa3f3d79515a3d54fd28c1d3bdca0b36127da349b830",
+				"dweb:/ipfs/QmUMzkyH3ytJX5gVPizQruNLhkKmuJb3nFqBDad4LPdg5U"
+			]
+		},
+		"contracts/TriangleArbitrageFlashLoaner.sol": {
+			"keccak256": "0xa8f968b903a6a9bc201a962558e46040ca8cf43ad0429dab9d8ce3f0ccd920ac",
+			"urls": [
+				"bzz-raw://2de573e556f40fcddef485a0cf07ab1ec8e48ddd8c10971b745bbf60b3362c33",
+				"dweb:/ipfs/QmWZBWsEsBQ5tTMwjWkRT2iVVkSeW3R8Unx94Dyh3H6m1Y"
+			]
+		},
+		"contracts/interfaces/IERC20.sol": {
+			"keccak256": "0xb8fa8c800783cf139925b56419c4317d98e45d950ddbd630ee290ffa4a8632fa",
+			"urls": [
+				"bzz-raw://df332e7349149d357f7eb6901663001a99dfe74dd5617b3f314ff8bb8861d04f",
+				"dweb:/ipfs/QmcRZz71Dz3Anj3BN1E7t6yrQy8auAo6bbR1eDvVz2Q7Bc"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Factory.sol": {
+			"keccak256": "0xc1d938ac44a6255166ac04282372779e1a9e5dc9e85067a59d1ddca7cdf4a398",
+			"urls": [
+				"bzz-raw://a8cb944cee98a1b7a89b9c902d1683976c47a2e4bd457db36f5ea8c7617bb636",
+				"dweb:/ipfs/QmWjY7Me3o5iUoyHvrUke4SDdi74wffACiRa7reKrRYLf7"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Pair.sol": {
+			"keccak256": "0x1c1f5615a8e8f224b344bea1efbb6aef9abedad9d86743a9bf9705bd9c8f94af",
+			"urls": [
+				"bzz-raw://2b30c1f9b648a8dc5fd72cf14bb68563fdb4da4de07a18440a1e072e21bc7eca",
+				"dweb:/ipfs/QmUbRbLYMJMxmz7sRQGCdWFDmAjVaBLVTNeE5oqTkFHEFj"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Router01.sol": {
+			"keccak256": "0xc329944187ba3d65ccdb26978f2ba5698b65ff546055adf78d592833535a57fd",
+			"urls": [
+				"bzz-raw://705c9de33e43f75bddbec58297bcf6c3634bb410619aaf97577630d897b4859a",
+				"dweb:/ipfs/QmXunpC3NEccGg1xaoE7iQZQ3ihsH9aEvnEHXQzuUVMEZa"
+			]
+		},
+		"contracts/interfaces/IUniswapV2Router02.sol": {
+			"keccak256": "0x4cf41c1fb08d93c995a37d75b5359f160096d859bca95fb343d1a6e3ab6ef3e0",
+			"urls": [
+				"bzz-raw://505359ebfed28a25eacb8b655e1fddf4c29f715e34189c7268ca21fae52f7b61",
+				"dweb:/ipfs/QmYb8EvjCAqSbYTTNFakfsBfuwv185sLpyXwtfrvRQFK6q"
+			]
+		}
+	},
+	"version": 1
+}
